@@ -1,0 +1,14 @@
+.skip-to-content {
+     position: absolute;
+     top: -40px;
+     left: 0;
+     background-color: #000;
+     color: #fff;
+     padding: 8px;
+     z-index: 1000;
+     transition: top var(--transition-speed);
+   }
+   
+   .skip-to-content:focus {
+     top: 0;
+   }

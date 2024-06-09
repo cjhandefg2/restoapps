@@ -1,0 +1,95 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Warung Wisata Kuliner</title>
+    <meta
+          name="description"
+          content="Mary's simple recipe for maple bacon donuts
+                    makes a sticky, sweet treat with just a hint
+                    of salt that you'll keep coming back for.">
+
+    <!-- Favicons -->
+    <link rel="icon" href="favicon.png" sizes="96x96" />
+  </head>
+  <body>
+    <header class="app-bar" role="banner" aria-label="Main Navigation">
+      <div class="app-bar__brand">
+        <img src="images/resto.png" alt="App Logo" class="app-bar__logo" />
+        <span class="app-bar__name">Warung Wisata Kuliner</span>
+      </div>
+      <nav class="app-bar__nav" aria-label="Primary Navigation">
+        <ul class="app-bar__nav-list">
+          <li><a href="/" aria-label="Go to Home">Home</a></li>
+          <li><a href="#" aria-label="Go to Favorites">Favorite</a></li>
+          <li>
+            <a
+              href="https://instagram.com/chandrabintangg"
+              aria-label="Learn more About Us"
+              >About Us</a
+            >
+          </li>
+        </ul>
+      </nav>
+      <button
+        id="menu-button"
+        class="app-bar__menu-button"
+        aria-label="Open navigation menu"
+      >
+        ☰
+      </button>
+    </header>
+
+    <div id="drawer" class="drawer" aria-hidden="true">
+      <nav aria-label="Drawer Navigation">
+        <ul class="drawer__list">
+          <li><a href="/" aria-label="Go to Home">Home</a></li>
+          <li><a href="#" aria-label="Go to Favorites">Favorite</a></li>
+          <li>
+            <a
+              href="https://instagram.com/chandrabintangg"
+              aria-label="Learn more About Us"
+              >About Us</a
+            >
+          </li>
+        </ul>
+      </nav>
+    </div>
+
+    <main id="main-content">
+      <section class="hero" aria-labelledby="hero-heading">
+        <img
+          src="images/heros/hero-image_1.jpg"
+          alt="Hero Image"
+          class="hero__image"
+        />
+        <div class="hero__overlay">
+          <div class="hero__text">
+            <h1 id="hero-heading">WWW - Warung Wisata Kuliner</h1>
+            <a
+              href="#restaurants"
+              id="see-our-picks"
+              class="hero__button"
+              aria-label="See our restaurant picks"
+              >See Our Picks</a
+            >
+          </div>
+        </div>
+      </section>
+
+      <section
+        class="restaurants"
+        id="restaurants"
+        aria-labelledby="restaurants-heading"
+      >
+        <h2 id="restaurants-heading">Restaurants</h2>
+        <div class="restaurants__list" id="restaurant-list"></div>
+      </section>
+    </main>
+
+    <footer class="footer" role="contentinfo" aria-label="Footer">
+      <p>&copy; 2024 - Warung Wisata Kuliner</p>
+    </footer>
+  </body>
+</html>
